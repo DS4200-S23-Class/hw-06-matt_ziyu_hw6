@@ -1,0 +1,31 @@
+/* Make font Arial for whole text*/
+body {
+	font-family: Arial;
+  }
+  /* Make headers centered*/
+  h1,h3,h4 {
+	text-align: center;
+  }
+  /* Style flexboc by making it max width and height, and make the direction up and down into cols*/
+  #flexbox{
+	max-height: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: top;
+  }
+
+/* Make points a darker color*/
+  circle{
+    stroke: transparent;
+    stroke-width: 4;
+    opacity: 50%;
+  }
+
+  .selected{
+    stroke-width: 4;
+    stroke: orange;
+    fill-opacity: 100%;
+    stroke-opacity: 100%;
+    opacity: 100%;
+  }
